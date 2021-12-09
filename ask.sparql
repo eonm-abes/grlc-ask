@@ -1,0 +1,6 @@
+#+ endpoint: https://query.wikidata.org/
+
+ASK
+{
+  ?item ?itemLabel "SPARQL".
+}
