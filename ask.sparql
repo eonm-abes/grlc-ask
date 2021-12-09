@@ -2,5 +2,5 @@
 
 ASK
 {
-  ?item ?itemLabel "SPARQL".
+  ?item ?itemLabel ?_param.
 }
