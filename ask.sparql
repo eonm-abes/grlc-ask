@@ -1,6 +1,7 @@
 #+ endpoint: https://query.wikidata.org/sparql
 
-ASK
-{
-  ?item ?itemLabel ?_param.
+ASK {
+  select * where { 
+    ?item ?itemLabel ?_param.
+  }
 }
